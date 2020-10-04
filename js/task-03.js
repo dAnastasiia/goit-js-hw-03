@@ -6,7 +6,7 @@ const findBestEmployee = function (employees) {
   // Write code under this line
   let names = Object.keys(employees);
   let bestResult = employees[names[0]];
-  let bestEmployee;
+  let bestEmployee = "";
 
   //   console.log(names);
   //   console.log(bestResult);
